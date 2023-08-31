@@ -32,7 +32,7 @@ export const productSlice = createSlice({
     },
   },
 });
-
+//
 export const { sell, buy, buyPayload } = productSlice.actions;
 export const moneySelector = (state) => state.products.money;
 export const totalSelector = (state) => state.products.total;
